@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# File dữ liệu tự sinh khi chạy bài 10, 11, 14 (giữ thư mục, bỏ nội dung sinh ra)
+data/*.txt
