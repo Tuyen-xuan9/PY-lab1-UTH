@@ -1,6 +1,6 @@
 # Lab 1 - Ngữ nghĩa cú pháp lập trình Python
 
-Bài tập Lab 1 môn Ngôn ngữ lập trình Python, gồm 15 bài, có menu console để chạy dễ dàng.
+Bài tập Lab 1 môn Ngôn ngữ lập trình Python.
 
 ## Cấu trúc thư mục
 
