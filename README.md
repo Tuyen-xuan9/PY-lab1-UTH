@@ -1,47 +1,40 @@
-# Lab 1 - Ngữ nghĩa cú pháp lập trình Python
+# Lab 1 - Python Programming Language Semantics
+Lab 1 assignment for the Python Programming Language course.
 
-Bài tập Lab 1 môn Ngôn ngữ lập trình Python.
-
-## Cấu trúc thư mục
-
+## Folder Structure
 ```
 lab1_python/
-├── main.py          -> chạy file này để mở menu
-├── bai_tap/         -> chứa code từng bài (bai1.py -> bai15.py)
-├── data/            -> nơi lưu file input/output của bài 10, 11, 14
+├── main.py          -> run this file to open the menu
+├── bai_tap/         -> contains code for each exercise (bai1.py -> bai15.py)
+├── data/            -> stores input/output files for exercises 10, 11, 14
 └── README.md
 ```
 
-## Cách chạy
-
-Cần cài Python 3.8 trở lên (không cần cài thêm thư viện gì khác).
-
+## How to Run
+Requires Python 3.8 or higher (no additional libraries needed).
 ```bash
 python main.py
 ```
+Then type the exercise number (1 to 15) to run it. Type `A` to run all 15 exercises in sequence. Type `0` to exit.
 
-Sau đó gõ số bài (1 đến 15) để chạy bài đó. Gõ `A` để chạy hết 15 bài lần lượt. Gõ `0` để thoát.
-
-## Danh sách bài
-
-| Bài | Nội dung |
+## Exercise List
+| No. | Description |
 |---|---|
-| 1 | Tính lương nhân viên theo giờ làm |
-| 2 | Tính tuổi từ ngày sinh |
-| 3 | In dãy số bình phương |
-| 4 | In bảng cửu chương |
-| 5 | Xử lý chuỗi từ (loại trùng, sắp xếp, viết hoa) |
-| 6 | Lọc số nhị phân chia hết cho 5 |
-| 7 | Tìm số chính phương có ít nhất 2 chữ số chẵn |
-| 8 | Đếm chữ hoa, chữ thường |
-| 9 | Định dạng chuỗi |
-| 10 | Loại bỏ bài hát trùng lặp (đọc/ghi file) |
-| 11 | Xử lý giao dịch ngân hàng (đọc/ghi file) |
-| 12 | Kiểm tra username, password hợp lệ |
-| 13 | Quản lý sinh viên (thêm, sửa, xóa, tìm kiếm) |
-| 14 | Từ điển Anh - Việt |
-| 15 | Xử lý mảng 2 chiều |
+| 1 | Calculate employee salary based on hours worked |
+| 2 | Calculate age from date of birth |
+| 3 | Print a sequence of squared numbers |
+| 4 | Print the multiplication table |
+| 5 | Process word strings (remove duplicates, sort, capitalize) |
+| 6 | Filter binary numbers divisible by 5 |
+| 7 | Find perfect squares with at least 2 even digits |
+| 8 | Count uppercase and lowercase letters |
+| 9 | String formatting |
+| 10 | Remove duplicate songs (file read/write) |
+| 11 | Process bank transactions (file read/write) |
+| 12 | Validate username and password |
+| 13 | Student management (add, edit, delete, search) |
+| 14 | English - Vietnamese dictionary |
+| 15 | 2D array processing |
 
-## Ghi chú
-
-Bài 10, 11 cần file dữ liệu để đọc. Nếu chưa có file, chương trình sẽ tự tạo file mẫu trong thư mục `data/` để chạy thử.
+## Notes
+Exercises 10 and 11 require data files to read from. If the files don't exist yet, the program will automatically create sample files in the `data/` folder for testing.
